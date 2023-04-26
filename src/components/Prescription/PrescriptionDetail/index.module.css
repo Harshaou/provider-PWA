@@ -1,0 +1,13 @@
+.antCollapseBox {
+  width: 100%;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.backContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,76 @@
+.breadCrumbs {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+    color: #1C1C1C;
+    opacity: 70%;
+    transition: opacity 0.15s ease-in-out;
+
+}
+
+.breadCrumbs:hover {
+    opacity: 100%;
+    transition: opacity 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.breadCrumbsLast {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1C1C1C;
+    line-height: 14px;
+    height: 14px;
+    color: #1C1C1C;
+}
+
+
+.componentItem {
+    width: 300px;
+    display: flex;
+    gap: 5px;
+    padding: 15px 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.actionCard {
+    height: 180px;
+    display: flex;
+    gap: 15px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.actionCardImg {
+    height: 70px;
+    margin-top: 8px;
+}
+
+.actionCardContent {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.actionCardButton {
+    min-height: 42px;
+    font-size: 18px;
+    padding: 0px 25px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

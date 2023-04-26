@@ -1,0 +1,293 @@
+[
+    {
+        "key": 0,
+        "benefit_description": "Outpatient",
+        "limit": "20,00,000",
+        "cover_type": "Per Family",
+        "preauth_rule": "Required",
+        "waiting_period": "1 Day",
+        "copay": "10%",
+        "exclusions": "Alternative medicine (acupuncture, chiropractor, homeopathy, herbal medicine, etc.)",
+        "benefits": [
+            {
+                "key": 0,
+                "benefit_description": "GP CONSULTATION",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "-",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 1,
+                "benefit_description": "Specialist consultation",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "1 Day",
+                "copay": "10%"
+            },
+            {
+                "key": 2,
+                "benefit_description": "Pathology investigation",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "-",
+                "waiting_period": "1 Day",
+                "copay": "10%"
+            },
+            {
+                "key": 3,
+                "benefit_description": "Radiology - All scan CT scan, normal scan, x-rays, mammograms, and MRI",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 3,
+                "benefit_description": "Antenatal care",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "-",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 4,
+                "benefit_description": "Obstetric ultrasounds",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "1 Day",
+                "copay": "10%"
+            },
+            {
+                "key": 5,
+                "benefit_description": "Post-natal care",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "-",
+                "waiting_period": "1 Day",
+                "copay": "10%"
+            },
+            {
+                "key": 6,
+                "benefit_description": "Physiotherapy",
+                "limit": "10 visits per illness",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "5 Days",
+                "copay": "10%"
+            },
+            {
+                "key": 7,
+                "benefit_description": "Family Planning",
+                "limit": "40,000 RWF limit per visit",
+                "cover_type": "Per Family",
+                "preauth_rule": "-",
+                "waiting_period": "-",
+                "copay": "10%"
+            }
+        ]
+    },
+    {
+        "key": 1,
+        "benefit_description": "Inpatient",
+        "limit": "1,00,00,000",
+        "cover_type": "Per Family",
+        "preauth_rule": "Required",
+        "waiting_period": "1 Day",
+        "copay": "10%",
+        "exclusions": " Reconstructive treatment and surgery, including cosmetic procedures and treatments , Obesity , Genetic testing, Treatment for occupational diseases,Naturopathy",
+        "benefits": [
+            {
+                "key": 0,
+                "benefit_description": "Pre-existing chronic conditions on full disclosure at the time of joining",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "100% Covered"
+            },
+            {
+                "key": 1,
+                "benefit_description": "Chronic conditions diagnosed after inception of cover",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "1 Day",
+                "copay": "10%"
+            },
+            {
+                "key": 2,
+                "benefit_description": "Maternity Cover Normal Delivery,Caesarian section(Elective & Emergency),Maternity related complications",
+                "limit": "10,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "1 Day",
+                "copay": "10%"
+            },
+            {
+                "key": 3,
+                "benefit_description": "Gynecological surgery",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 3,
+                "benefit_description": "Psychiatry and psychotherapy after one year of cover",
+                "limit": "30,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 4,
+                "benefit_description": "Cancer treatment after one year of cover",
+                "limit": "20,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "1 Day",
+                "copay": "10%"
+            },
+            {
+                "key": 5,
+                "benefit_description": "Post-hospitalization treatment related to cause of pre-authorization",
+                "limit": "2,33,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "1 Day",
+                "copay": "10%"
+            },
+            {
+                "key": 6,
+                "benefit_description": "Ambulance services (road and air)",
+                "limit": "10 visits per illness",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "5 Days",
+                "copay": "10%"
+            }
+        ]
+    },
+    {
+        "key": 2,
+        "benefit_description": "Optical",
+        "limit": "3,50,000",
+        "cover_type": "Per Person",
+        "preauth_rule": "",
+        "waiting_period": "-",
+        "copay": "10%",
+        "exclusions": "Plano Glasses",
+        "benefits": [
+            {
+                "key": 0,
+                "benefit_description": "Consultation",
+                "limit": "20,00,000",
+                "cover_type": "Per Person",
+                "preauth_rule": "",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 1,
+                "benefit_description": "Lenses",
+                "limit": "20,00,000",
+                "cover_type": "Per Person",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 2,
+                "benefit_description": "Frames",
+                "limit": "10,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 3,
+                "benefit_description": "Frames",
+                "limit": "20,00,000",
+                "cover_type": "Per Person",
+                "preauth_rule": "",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 3,
+                "benefit_description": "Contact Lenses",
+                "limit": "30,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "10%"
+            }
+        ]
+    },
+    {
+        "key": 3,
+        "benefit_description": "Dental",
+        "limit": "3,50,000",
+        "cover_type": "Per Person",
+        "preauth_rule": "",
+        "waiting_period": "-",
+        "copay": "10%",
+        "exclusions": "-",
+        "benefits": [
+            {
+                "key": 0,
+                "benefit_description": "Consultation",
+                "limit": "20,00,000",
+                "cover_type": "Per Person",
+                "preauth_rule": "",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 1,
+                "benefit_description": "Extraction",
+                "limit": "20,00,000",
+                "cover_type": "Per Person",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 2,
+                "benefit_description": "Root canal",
+                "limit": "10,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 3,
+                "benefit_description": "Normal compound filling",
+                "limit": "20,00,000",
+                "cover_type": "Per Person",
+                "preauth_rule": "",
+                "waiting_period": "-",
+                "copay": "10%"
+            },
+            {
+                "key": 4,
+                "benefit_description": " Apicectomy",
+                "limit": "30,00,000",
+                "cover_type": "Per Family",
+                "preauth_rule": "Required",
+                "waiting_period": "-",
+                "copay": "10%"
+            }
+        ]
+    }
+]

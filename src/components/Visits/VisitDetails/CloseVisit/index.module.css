@@ -1,0 +1,99 @@
+.modalContainer {
+    padding: 40px 45px;
+}
+
+.modalTitle {
+    /* Heading/H3/Medium/Mobile */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* Neutral/Main (900) */
+
+    color: #171717;
+    margin-bottom: 0px;
+}
+
+.modalSubTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #262626;
+    margin-bottom: 40px;
+}
+
+.input {
+    border: 1px solid #A3A3A3;
+    border-radius: 50px;
+    height: 52px;
+    padding: 25px;
+
+}
+
+.closeVisitBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 8px;
+
+    width: 375px;
+    height: 48px;
+
+    background: rgba(239, 68, 68, 0.5);
+    border-radius: 50px;
+    color: white;
+    border: none;
+}
+
+.closeVisitBtn:hover {
+    background: rgba(239, 68, 68, 0.75);
+}
+
+.closeVisitBtn:focus {
+    background: rgba(239, 68, 68, 0.9);
+}
+
+.formLabel {
+    /* Heading/H6/Medium/Mobile */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.02em;
+
+    /* Neutral/Main (800) */
+
+    color: #262626;
+
+}
+
+.closeBtn {
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    position: absolute;
+    color: #888;
+    font-size: 15px;
+    top: 25px;
+    right: 25px;
+}

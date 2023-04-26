@@ -1,0 +1,71 @@
+.container {
+  max-width: 1920px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8%;
+  gap: 80px;
+  background-image: url('../../img/backgroundImg.png');
+}
+
+.box {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 3%;
+  border-radius: 25px;
+  margin-top: -100px;
+}
+
+.loginPic {
+  height: 500px;
+  margin-top: -100px;
+}
+
+.fieldLabel {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.forgottPassword {
+  float: right;
+  font-size: 12px;
+  margin-top: 4px !important;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+}
+
+.sectionTwo {
+  display: flex;
+  width: 90%;
+}
+
+.sectionTwo p {
+  text-align: center;
+  margin-top: -3px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .box {
+    width: 420px;
+    gap: 45px;
+  }
+}

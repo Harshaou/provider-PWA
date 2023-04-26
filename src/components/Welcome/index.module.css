@@ -1,0 +1,77 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.contentBox {
+  display: grid;
+  min-height: 600px;
+  width: 750px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  border: 2px solid rgb(169, 166, 166);
+}
+
+.loginPic {
+  height: 100px;
+}
+
+.welcomeTitle {
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+.welcomeText {
+  letter-spacing: 0.3px;
+  font-size: 14px;
+  width: 80%;
+}
+
+.customHr {
+  border: none;
+  height: 1px;
+  background: black;
+}
+
+.loginBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  gap: 25px;
+}
+
+.fieldLabel {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.contentBoxResetPassword {
+  margin-top: 20px;
+  display: grid;
+  min-height: 400px;
+  width: 750px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  border: 2px solid rgb(169, 166, 166);
+}

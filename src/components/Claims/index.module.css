@@ -1,0 +1,215 @@
+.headerText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -0.02em;
+
+  /* Neutral/Main (900) */
+
+  color: #171717;
+  margin-top: -50px;
+}
+
+.banner {
+  margin-top: 32px;
+  background: #ffffff;
+  /* Shadow/Large */
+
+  box-shadow: 0px 16px 44px rgba(82, 82, 82, 0.05);
+  border-radius: 15px;
+  display: flex;
+  padding: 25px;
+  width: 75%;
+}
+
+.bannerText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  /* or 111% */
+
+  letter-spacing: -0.02em;
+
+  /* Neutral/Main (900) */
+
+  color: #171717;
+}
+
+.bannerSubText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  letter-spacing: -0.02em;
+
+  /* Neutral/Main (800) */
+
+  color: #262626;
+}
+
+.bannerBtn {
+  justify-self: flex-end;
+  align-self: flex-end;
+  width: 135px;
+  height: 36px;
+  background: #3ab44d;
+  border-radius: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Shades/White */
+
+  color: #ffffff;
+  padding: 6px 33.5px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+
+.tableContainer {
+  background: #ffffff;
+  /* Shadow/Large */
+
+  box-shadow: 0px 16px 44px rgba(82, 82, 82, 0.05);
+  border-radius: 15px;
+  margin-top: 32px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 75px;
+}
+
+.tableText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: -0.02em;
+
+  /* Neutral/Main (700) */
+
+  color: #404040;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.tableSearchBox {
+  width: 375px;
+  height: 46px;
+  background: #ffffff;
+  /* Neutral/Main (300)
+
+These colours are used as supporting secondary colours in backgrounds, text colours, separators, models.
+*/
+  border: 1px solid #d4d4d4;
+  border-radius: 15px;
+}
+
+.searchText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.02em;
+
+  /* Neutral/Main (400) */
+
+  color: #a3a3a3;
+}
+
+.tableTitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: -0.02em;
+
+  /* Neutral/Main (700) */
+
+  color: #404040;
+  margin-bottom: 0px;
+}
+
+.tableText {
+  /* Paragraph/Medium/Light */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.02em;
+
+  /* Neutral/Main (800) */
+
+  color: #262626;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.tableStatus {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.02em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* Success/Main (500) */
+
+  color: red;
+}
+
+.claimStatus {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.02em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* Success/Main (500) */
+}
+
+.tableAction {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  height: 32px;
+  border-radius: 50px;
+  padding: 0px 15px;
+}
+
+.divider {
+  border-top: 1px solid #e5e5e5;
+}

@@ -1,0 +1,148 @@
+.pageContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.contentContainer {
+  padding: 0px 35px 0px 50px;
+  right: 0;
+  width: 100%;
+  margin: 10px auto;
+  overflow-y: scroll;
+}
+
+.sideBar {
+  width: 7%;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3ab44d;
+  transition: all 300ms linear;
+  gap: 15%;
+}
+
+.sideBarOpen {
+  width: 12.5%;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3ab44d;
+  transition: all 300ms linear;
+  gap: 12%;
+  padding: 25px;
+}
+
+.sideBarOpenTablet {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3ab44d;
+  transition: all 300ms linear;
+  gap: 12%;
+  height: 100%;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  gap: 7%;
+  margin-top: -50px;
+}
+
+.linksOpen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 50%;
+  gap: 6%;
+  margin-top: -50px;
+}
+
+.linkItem {
+  font-weight: 300;
+  color: #fff;
+}
+
+.linkItem p {
+  margin-left: 12px;
+}
+
+.linkItem:hover {
+  color: #fff;
+}
+
+.sidebarIcon {
+  height: 22px;
+}
+
+.sidebarIconActive {
+  height: 40px;
+}
+
+.sidebarIconActiveOpen {
+  height: 40px;
+  margin-left: -10px;
+}
+
+.linkItemActive {
+  font-weight: 600;
+  color: white;
+}
+
+.linkItemActive:hover {
+  color: white;
+}
+
+.linkItemActive .sidebarIcon {
+  display: none;
+}
+
+.linkItem .sidebarIconActive {
+  display: none;
+}
+
+.linkItem .sidebarIconActiveOpen {
+  display: none;
+}
+
+.menuIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  .contain {
+    width: 95%;
+  }
+
+  .sideBar {
+    display: none;
+  }
+
+  .menuIcon {
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .sideBar {
+    display: none;
+  }
+
+  .contain {
+    width: 95%;
+  }
+
+  .menuIcon {
+    display: grid;
+  }
+}

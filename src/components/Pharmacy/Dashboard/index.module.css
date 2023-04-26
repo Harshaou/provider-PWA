@@ -1,0 +1,79 @@
+.componentItem {
+  width: 300px;
+  display: flex;
+  gap: 5px;
+  padding: 15px 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.actionCard {
+  height: 180px;
+  display: flex;
+  gap: 15px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.actionCardImg {
+  height: 70px;
+  margin-top: 8px;
+}
+
+.actionCardContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.actionCardButton {
+  min-height: 42px;
+  font-size: 18px;
+  padding: 0px 25px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.cardShadow {
+  background: #FFFFFF;
+  /* Shadow/Large */
+
+  box-shadow: 0px 16px 44px rgba(82, 82, 82, 0.05);
+  border-radius: 15px;
+  padding: 25px 0px;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+
+
+.cardTitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+
+  color: #171717;
+}
+
+.tableValue {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 20px; */
+  letter-spacing: -0.02em;
+  margin-bottom: 0px;
+  color: #171717;
+}

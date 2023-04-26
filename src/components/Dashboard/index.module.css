@@ -1,0 +1,21 @@
+.componentItem {
+  width: 300px;
+  display: flex;
+  gap: 5px;
+  padding: 15px 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.visitButtonStyle {
+  float: right;
+  width: 230px;
+  height: 47px;
+  font-size: 18px;
+}
