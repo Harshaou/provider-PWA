@@ -76,7 +76,7 @@ const DashboardItems = () => {
           <h3 style={{ fontSize: 28 }}>Create a new Patient Visit</h3>
           <p>
             To schedule a visit, patients must provide their Member Number or NIDA number and
-            undergo 2FA with an OTP sent to their registered number.
+            undergo 2FA with an OTP sent to their registered number. haha
           </p>
           <Button
             onClick={() => setIsModalOpen(true)}
